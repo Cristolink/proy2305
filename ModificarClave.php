@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-      <form action="index.Php" method="POST">
+      <form action="revision.php" method="POST">
              <table border="3"><tr><td>Clave Actual</td><td>Clave nueva</td></tr>
                  <tr><td><input type="password" name="ClaveActual"/></td><td><input type="password" name="ClaveNueva"/></td></tr>
                   <tr rowspan=><td rowspan> <input type="submit" value="Ingresar"></td></tr>

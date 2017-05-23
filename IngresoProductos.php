@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <form action="index.php" method="POST">
+        <form action="revision.php" method="POST">
              <table border="3"><tr><td>Nombre</td><td>Precio</td><td>Codigo</td></tr>
                  <tr><td><input type="text" name="NombreProd"/></td><td><input type="text" name="Precio"/></td><td>
                      <input type="text" name="codigo"</td></tr>
