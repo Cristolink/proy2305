@@ -1,8 +1,20 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+class Producto{
+    var $nombre="";
+    var $precio=0;
+    var $codigo="";
+    
+    /*Constructor de la clase*/
+    
+    public function __construct($nombre="", $precio=0, $codigo="") {
+        $this->nombre= $nombre;
+        $this->precio= $precio;
+        $this->codigo= $codigo;
+    }
+    
+    public function totalUSD(){
+        return $this->precio /680;        
+    }
+}
