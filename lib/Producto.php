@@ -1,6 +1,4 @@
 <?php
-
-
 class Producto{
     var $nombre="";
     var $precio=0;
