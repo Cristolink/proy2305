@@ -15,7 +15,7 @@ and open the template in the editor.
          <form action="IngresoProductos.php" method="POST">
               <table border="3"><tr><td>Usuario</td><td>Contraseña</td></tr>
                   <tr><td><input type="text" name="nombre"/></td><td><input type="paswword" name="clave"/></td></tr>
-                  <tr rowspan="2"><td rowspan="2"> <input type="submit" value="Acceder"></td></tr>
+                  <tr rowspan="2"><td rowspan="2"> <input type="submit" value="Acsceder"></td></tr>
               </table>
               
               
